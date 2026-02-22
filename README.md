@@ -12,12 +12,7 @@ Bienvenue sur le site officiel de Titan Corp, une entreprise spécialisée dans 
 
 🎯 Notre mission
 
-Aider les entreprises, entrepreneurs et organisations à réussir leur transformation digitale grâce à des solutions modernes, sécurisées et performantes.
-
-🌐 Site en ligne
-
-Accédez à notre site ici :
-👉 https://TON-NOM.github.io/NOM-DU-PROJET
+Aider les entreprises, entrepreneurs et organisations à réussir leur transformation digitale grâce à des solutions modernes, sécurisées et performantes
 
 📞 Contact
 
