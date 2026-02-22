@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Titan Corp</title>
+
+<style>
+
+body{
+margin:0;
+font-family: "Segoe UI", Arial;
+background:linear-gradient(135deg,#020617,#071a2f);
+color:white;
+overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 90px;
+background:rgba(0,0,0,0.9);
+border-bottom:1px solid gold;
+position:sticky;
+top:0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+font-size:30px;
+font-weight:bold;
+color:gold;
+}
+
+.logo img{
+width:48px;
+margin-right:15px;
+border-radius:8px;
+}
+
+nav a{
+color:#ddd;
+margin:0 25px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:180px 20px;
+background:radial-gradient(circle,#0b1f36,#020617);
+}
+
+.hero h1{
+font-size:85px;
+background:linear-gradient(gold,#fff);
+-webkit-background-clip:text;
+color:transparent;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:24px;
+color:#b6c5d6;
+max-width:900px;
+margin:auto;
+line-height:1.7;
+}
+
+/* BUTTON */
+
+.btn{
+margin-top:45px;
+background:linear-gradient(45deg,gold,#ffd700);
+border:none;
+padding:22px 65px;
+font-size:22px;
+border-radius:14px;
+cursor:pointer;
+font-weight:bold;
+transition:0.4s;
+}
+
+.btn:hover{
+transform:scale(1.07);
+box-shadow:0 0 35px gold;
+}
+
+/* SECTION */
+
+.section{
+padding:140px 40px;
+text-align:center;
+}
+
+.section h2{
+font-size:55px;
+color:gold;
+margin-bottom:60px;
+}
+
+/* CARDS */
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:#081626;
+margin:30px;
+padding:50px;
+width:350px;
+border-radius:20px;
+border:1px solid #142b47;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-15px);
+border-color:gold;
+box-shadow:0 0 50px rgba(255,215,0,0.5);
+}
+
+.card h3{
+color:gold;
+font-size:26px;
+}
+
+/* STATS */
+
+.stats{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+background:#020617;
+padding:100px;
+}
+
+.stat{
+margin:60px;
+font-size:45px;
+color:gold;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:80px;
+background:#020617;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<a href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+</a>
+TITAN CORP
+</div>
+
+<div>
+<a href="#">Entreprise</a>
+<a href="#">Expertise</a>
+<a href="#">Innovation</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>TITAN CORP</h1>
+
+<p>
+Puissance. Innovation. Leadership mondial.  
+Titan Corp accompagne les organisations, entreprises et institutions vers
+une transformation stratégique durable, sécurisée et performante.
+</p>
+
+<button class="btn" onclick="contact()">CONTACTER TITAN</button>
+</section>
+
+<section class="section">
+<h2>Excellence Mondiale</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Leadership International</h3>
+<p>Présence mondiale et gestion de projets stratégiques à grande échelle.</p>
+</div>
+
+<div class="card">
+<h3>Technologie Avancée</h3>
+<p>Solutions innovantes conçues pour les défis du futur.</p>
+</div>
+
+<div class="card">
+<h3>Performance Garantie</h3>
+<p>Des résultats mesurables avec une fiabilité totale.</p>
+</div>
+
+<div class="card">
+<h3>Vision Stratégique</h3>
+<p>Accompagnement premium vers une croissance durable.</p>
+</div>
+
+</div>
+</section>
+
+<section class="stats">
+<div class="stat">+60 Pays</div>
+<div class="stat">+8000 Projets</div>
+<div class="stat">+3000 Clients</div>
+</section>
+
+<footer>
+© 2026 Titan Corp — Global Power & Innovation
+</footer>
+
+<script>
+function contact(){
+window.open("https://wa.me/23568345109");
+}
+</script>
+
+</body>
+</html>
